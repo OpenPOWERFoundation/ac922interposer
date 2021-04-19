@@ -265,7 +265,7 @@ Wire Wire Line
 	8000 1950 8000 2050
 Wire Wire Line
 	8000 2350 8000 2500
-Text Label 7250 2050 0    50   ~ 0
+Text Label 7300 2050 0    50   ~ 0
 12VCS_RESET_N
 Text GLabel 4250 6150 2    50   Input ~ 0
 +3.3VCS
@@ -476,8 +476,6 @@ Wire Wire Line
 Connection ~ 3600 7150
 Wire Wire Line
 	7050 1750 7700 1750
-Wire Wire Line
-	7050 2050 7250 2050
 Text GLabel 7600 5450 2    50   BiDi ~ 0
 ESPI_IO1
 Wire Wire Line
@@ -516,8 +514,6 @@ Wire Wire Line
 	8800 3750 9000 3750
 Wire Wire Line
 	9000 3750 9000 3450
-Wire Wire Line
-	7050 5550 7250 5550
 $Comp
 L power:GND #PWR023
 U 1 1 632AB254
@@ -710,8 +706,6 @@ Wire Wire Line
 Wire Wire Line
 	7050 3950 7300 3950
 Connection ~ 7300 3950
-Wire Wire Line
-	7250 2150 7250 2050
 Connection ~ 7250 2150
 Wire Wire Line
 	7050 2150 7250 2150
@@ -740,11 +734,6 @@ F 3 "" H 7250 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7250 2150 7250 2400
-Connection ~ 7250 2050
-Wire Wire Line
-	7250 2050 8000 2050
-Wire Wire Line
-	7250 2050 7250 1850
 Text GLabel 5750 6750 2    50   Input ~ 0
 I3C3_SCL
 Text GLabel 5750 7050 2    50   BiDi ~ 0
@@ -826,9 +815,6 @@ Wire Wire Line
 Connection ~ 7250 5350
 Wire Wire Line
 	7250 5350 7250 5050
-Connection ~ 7250 5550
-Wire Wire Line
-	7250 5550 7600 5550
 Wire Wire Line
 	10550 1250 10350 1250
 Wire Wire Line
@@ -1134,12 +1120,7 @@ Text GLabel 1800 5450 2    50   Output ~ 0
 Wire Wire Line
 	1500 5450 1750 5450
 Wire Wire Line
-	1500 5550 1700 5550
-Wire Wire Line
 	1750 5550 1750 5450
-Connection ~ 1700 5550
-Wire Wire Line
-	1700 5550 1750 5550
 Connection ~ 1750 5450
 Wire Wire Line
 	1750 5450 1800 5450
@@ -1147,4 +1128,12 @@ Wire Wire Line
 	3650 4550 3300 4550
 Wire Wire Line
 	3650 4650 3300 4650
+Wire Wire Line
+	1500 5550 1750 5550
+Wire Wire Line
+	7050 5550 7600 5550
+Wire Wire Line
+	7050 2050 8000 2050
+Wire Wire Line
+	7250 1850 7250 2150
 $EndSCHEMATC
