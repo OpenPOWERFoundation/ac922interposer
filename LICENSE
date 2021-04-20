@@ -1,6 +1,4 @@
-Copyright (c) 2021 Steven Roberts
-
-       Apache License
+                                 Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -188,6 +186,11 @@ Copyright (c) 2021 Steven Roberts
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
+<<<<<<< HEAD
+=======
+   Copyright 2021 Steven Roberts
+
+>>>>>>> c015a539a94d5cba3fbf8dd1fdeb17beb424b00e
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
@@ -199,4 +202,7 @@ Copyright (c) 2021 Steven Roberts
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+<<<<<<< HEAD
 
+=======
+>>>>>>> c015a539a94d5cba3fbf8dd1fdeb17beb424b00e
