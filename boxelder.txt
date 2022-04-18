@@ -1,0 +1,253 @@
+
+  RefDes:         J2_BP
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    A1      UNSPEC                            GND
+    A2      UNSPEC                            
+    A3      UNSPEC                            GND
+    A4      UNSPEC                            
+    A5      UNSPEC                            GND
+    A6      UNSPEC                            PGOOD_3P3VCS
+    A7      UNSPEC                            GND
+    A8      UNSPEC                            PE_BCM_RX0_P
+    A9      UNSPEC                            GND
+    A10     UNSPEC                            PE_CP0_P_BMC_CLK_N
+    B1      UNSPEC                            
+    B2      UNSPEC                            RESET_STAGE0_N
+    B3      UNSPEC                            BMC_RESET_N
+    B4      UNSPEC                            BMC_LPCRST_N
+    B5      UNSPEC                            GND
+    B6      UNSPEC                            
+    B7      UNSPEC                            USB_DN2_DM
+    B8      UNSPEC                            PE_BCM_RX0_N
+    B9      UNSPEC                            USB_DN2_SSTXP
+    B10     UNSPEC                            PE_CP0_P_BMC_CLK_P
+    C1      UNSPEC                            PEX_BMC_INTA_N
+    C2      UNSPEC                            GND
+    C3      UNSPEC                            UCD_RESET_N
+    C4      UNSPEC                            GND
+    C5      UNSPEC                            BMC_33.33MHZ
+    C6      UNSPEC                            GND
+    C7      UNSPEC                            USB_DN2_DP
+    C8      UNSPEC                            GND
+    C9      UNSPEC                            USB_DN2_SSTXN
+    C10     UNSPEC                            GND
+    D1      UNSPEC                            GND
+    D2      UNSPEC                            
+    D3      UNSPEC                            GND
+    D4      UNSPEC                            
+    D5      UNSPEC                            GND
+    D6      UNSPEC                            PGOOD_1P1VCS
+    D7      UNSPEC                            GND
+    D8      UNSPEC                            PE_BCM_RX1_P
+    D9      UNSPEC                            GND
+    D10     UNSPEC                            PE_CP0_P_BMC_DAT_00_P
+    E1      UNSPEC                            
+    E2      UNSPEC                            PE_CP0_P_USB_PERST_N
+    E3      UNSPEC                            PE_CP0_P_ENET_PERST_N
+    E4      UNSPEC                            BMC_CP0_RESET_N
+    E5      UNSPEC                            ENABLE_1P8V_1P1V
+    E6      UNSPEC                            
+    E7      UNSPEC                            PWR_USB2
+    E8      UNSPEC                            PE_BCM_RX1_N
+    E9      UNSPEC                            USB_DN2_SSRXP
+    E10     UNSPEC                            PE_CP0_P_BMC_DAT_00_N
+    F1      UNSPEC                            PV_CP_MD_JTAG_ATTENTION_N
+    F2      UNSPEC                            GND
+    F3      UNSPEC                            RESET_STAGE1_BUFF_N
+    F4      UNSPEC                            GND
+    F5      UNSPEC                            
+    F6      UNSPEC                            GND
+    F7      UNSPEC                            PWR_USB2
+    F8      UNSPEC                            GND
+    F9      UNSPEC                            USB_DN2_SSRXN
+    F10     UNSPEC                            GND
+    G1      UNSPEC                            GND
+    G2      UNSPEC                            
+    G3      UNSPEC                            GND
+    G4      UNSPEC                            
+    G5      UNSPEC                            GND
+    G6      UNSPEC                            BMC_TPM_RESET_N
+    G7      UNSPEC                            GND
+    G8      UNSPEC                            PE_BCM_TX0_P
+    G9      UNSPEC                            GND
+    G10     UNSPEC                            PE_BMC_P_CP0_DAT_00_N
+    H1      UNSPEC                            
+    H2      UNSPEC                            SOFT_FSI_CLK
+    H3      UNSPEC                            
+    H4      UNSPEC                            BMC_VS1_PERST_N
+    H5      UNSPEC                            
+    H6      UNSPEC                            CP_PERST_ENABLE
+    H7      UNSPEC                            BMC_COM5_RXD
+    H8      UNSPEC                            PE_BCM_TX0_N
+    H9      UNSPEC                            PE_TUSB_RX_P
+    H10     UNSPEC                            PE_BMC_P_CP0_DAT_00_P
+    J1      UNSPEC                            BMC_TPM_INT_N
+    J2      UNSPEC                            GND
+    J3      UNSPEC                            12VCS_RESET_N
+    J4      UNSPEC                            GND
+    J5      UNSPEC                            LPC_FRAME_N
+    J6      UNSPEC                            GND
+    J7      UNSPEC                            APSS_UART_RX
+    J8      UNSPEC                            GND
+    J9      UNSPEC                            PE_TUSB_RX_N
+    J10     UNSPEC                            GND
+    K1      UNSPEC                            GND
+    K2      UNSPEC                            
+    K3      UNSPEC                            GND
+    K4      UNSPEC                            LPC_LAD2
+    K5      UNSPEC                            GND
+    K6      UNSPEC                            BMC_CP0_PERST_ENABLE_R
+    K7      UNSPEC                            GND
+    K8      UNSPEC                            PE_BCM_TX1_P
+    K9      UNSPEC                            GND
+    K10     UNSPEC                            PE_CP0_P_USB_CLK_P
+    L1      UNSPEC                            
+    L2      UNSPEC                            SOFT_FSI_DAT
+    L3      UNSPEC                            
+    L4      UNSPEC                            LPC_LAD3
+    L5      UNSPEC                            LPC_LAD1
+    L6      UNSPEC                            PE_CP0_P_BMC_PERST_N
+    L7      UNSPEC                            CLK_100MHZ_BCM_P
+    L8      UNSPEC                            PE_BCM_TX1_N
+    L9      UNSPEC                            PE_TUSB_TX_P
+    L10     UNSPEC                            PE_CP0_P_USB_CLK_N
+    M1      UNSPEC                            SYS_PWROK_BUF
+    M2      UNSPEC                            GND
+    M3      UNSPEC                            NC_PGOOD_5VCS_BMCUSB
+    M4      UNSPEC                            GND
+    M5      UNSPEC                            LPC_LAD0
+    M6      UNSPEC                            GND
+    M7      UNSPEC                            CLK_100MHZ_BCM_N
+    M8      UNSPEC                            GND
+    M9      UNSPEC                            PE_TUSB_TX_N
+    M10     UNSPEC                            GND
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  RefDes:         J1_BP
+ 
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    A1      UNSPEC                            GND
+    A2      UNSPEC                            +5.0V
+    A3      UNSPEC                            GND
+    A4      UNSPEC                            +1.1V
+    A5      UNSPEC                            GND
+    A6      UNSPEC                            I2C5_SCL
+    A7      UNSPEC                            GND
+    A8      UNSPEC                            BMC_FSI_IN_ENA
+    A9      UNSPEC                            GND
+    A10     UNSPEC                            
+    B1      UNSPEC                            +12.0VT
+    B2      UNSPEC                            +5.0V
+    B3      UNSPEC                            
+    B4      UNSPEC                            
+    B5      UNSPEC                            PS1_PRES_N
+    B6      UNSPEC                            I2C5_SDA
+    B7      UNSPEC                            I2C14_SCL
+    B8      UNSPEC                            PS_FFS_N
+    B9      UNSPEC                            FP_PWRBTN_LED_N
+    B10     UNSPEC                            BMC_FULL_SPEED_N
+    C1      UNSPEC                            +12.0VT
+    C2      UNSPEC                            GND
+    C3      UNSPEC                            
+    C4      UNSPEC                            GND
+    C5      UNSPEC                            I2C10_MUX_S0
+    C6      UNSPEC                            GND
+    C7      UNSPEC                            I2C14_SDA
+    C8      UNSPEC                            GND
+    C9      UNSPEC                            SOFTWARE_PGOOD
+    C10     UNSPEC                            GND
+    D1      UNSPEC                            GND
+    D2      UNSPEC                            +5.0V
+    D3      UNSPEC                            GND
+    D4      UNSPEC                            AIR_WATER_N
+    D5      UNSPEC                            GND
+    D6      UNSPEC                            I2C10_SDA
+    D7      UNSPEC                            GND
+    D8      UNSPEC                            PS0_PRES_N
+    D9      UNSPEC                            GND
+    D10     UNSPEC                            
+    E1      UNSPEC                            +12.0VT
+    E2      UNSPEC                            +5.0V
+    E3      UNSPEC                            +3.3V
+    E4      UNSPEC                            CP0_FSI0_DATA_EN
+    E5      UNSPEC                            I2C13_SCL
+    E6      UNSPEC                            I2C10_SCL
+    E7      UNSPEC                            I2C6_SCL
+    E8      UNSPEC                            NC__VDDR_ENABLE_TEST
+    E9      UNSPEC                            FP_PWR_BTN_N
+    E10     UNSPEC                            PEX_BMC_FATAL_ERR_N
+    F1      UNSPEC                            +12.0VT
+    F2      UNSPEC                            GND
+    F3      UNSPEC                            +3.3V
+    F4      UNSPEC                            GND
+    F5      UNSPEC                            I2C13_SDA
+    F6      UNSPEC                            GND
+    F7      UNSPEC                            I2C6_SDA
+    F8      UNSPEC                            GND
+    F9      UNSPEC                            N_MODE_N
+    F10     UNSPEC                            GND
+    G1      UNSPEC                            GND
+    G2      UNSPEC                            +5.0VCS
+    G3      UNSPEC                            GND
+    G4      UNSPEC                            NC__CM1_OE_N
+    G5      UNSPEC                            GND
+    G6      UNSPEC                            I2C11_SDA
+    G7      UNSPEC                            GND
+    G8      UNSPEC                            I2C11_MUX_S0
+    G9      UNSPEC                            GND
+    G10     UNSPEC                            LED_FAULT_N
+    H1      UNSPEC                            +12.0VCS
+    H2      UNSPEC                            +5.0VCS
+    H3      UNSPEC                            +3.3VCS
+    H4      UNSPEC                            I2C11_MUX_S1
+    H5      UNSPEC                            I2C3_MUX_SEL
+    H6      UNSPEC                            I2C11_SCL
+    H7      UNSPEC                            I2C4_SCL
+    H8      UNSPEC                            FAN_HI_SPEED_N
+    H9      UNSPEC                            FP_ID_BTN_N
+    H10     UNSPEC                            PW_LED_N
+    J1      UNSPEC                            +12.0VCS
+    J2      UNSPEC                            GND
+    J3      UNSPEC                            +3.3VCS
+    J4      UNSPEC                            GND
+    J5      UNSPEC                            I2C10_MUX_OE_N
+    J6      UNSPEC                            GND
+    J7      UNSPEC                            I2C4_SDA
+    J8      UNSPEC                            GND
+    J9      UNSPEC                            BMC_UCD_ALERT_N
+    J10     UNSPEC                            GND
+    K1      UNSPEC                            GND
+    K2      UNSPEC                            
+    K3      UNSPEC                            GND
+    K4      UNSPEC                            I2C10_MUX_S1
+    K5      UNSPEC                            GND
+    K6      UNSPEC                            I2C12_SCL
+    K7      UNSPEC                            GND
+    K8      UNSPEC                            CARD_PRES_N
+    K9      UNSPEC                            GND
+    K10     UNSPEC                            REAR_ID_LED_N
+    L1      POWER                             +2.5VCS
+    L2      UNSPEC                            
+    L3      UNSPEC                            PWR_BATTERY
+    L4      UNSPEC                            FSI_JMFG0_PRSNT_N
+    L5      UNSPEC                            PD_BMC_PRES_N
+    L6      UNSPEC                            I2C12_SDA
+    L7      UNSPEC                            I2C3_SCL
+    L8      UNSPEC                            BMC_POWER_UP
+    L9      UNSPEC                            
+    L10     UNSPEC                            APSS_BOOT_MODE
+    M1      POWER                             +2.5VCS
+    M2      UNSPEC                            GND
+    M3      UNSPEC                            PWR_BATTERY
+    M4      UNSPEC                            GND
+    M5      UNSPEC                            I2C11_MUX_OE_N
+    M6      UNSPEC                            GND
+    M7      UNSPEC                            I2C3_SDA
+    M8      UNSPEC                            GND
+    M9      UNSPEC                            BMC_SERIRQ
+    M10     UNSPEC                            GND
+
+  ~ ~ ~ ~ ~ ~ ~end-of-file~ ~ ~ ~ ~ ~ ~
